@@ -112,7 +112,7 @@ if ([string]::IsNullOrEmpty($userSecret) -or [string]::IsNullOrWhiteSpace($userS
 $CustomNinjaDocumentation = 'Deployments'
 
 # NinjaRMM Custom Documentation Field Name (can be secure, all must have Script Read permissions)
-$customCompanyID = 'connectsecureCompanyId'
+$customCompanyID = 'configureconnectsecurecompanyid'
 
 # NinjaRMM Custom Documentation Field Name (can be secure, all must have Script Read permissions)
 $customUserSecret = 'connectsecureUserSecret'
